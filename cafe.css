@@ -1,0 +1,594 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial;
+  overflow-x: hidden;
+}
+.general-div {
+  /* width: 100%; */
+
+  /* height: 100%; */
+}
+.top {
+  display: flex;
+  width: 100%;
+  position: fixed;
+  /* height: 1%; */
+  justify-content: space-around;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  font-size: smaller;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  cursor: pointer;
+}
+.fixed-div {
+  position: relative;
+}
+.top h3:hover {
+  background-color: lightgrey;
+  color: black;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  width: 20%;
+}
+.first-image{
+  position: relative;
+}
+
+.image-div img{
+  width: 90%;
+  height:30%;
+}
+
+.cafe {
+  position: absolute;
+  z-index: 100%;
+  top: 30%;
+  right: 50%;
+}
+.fixed-div h2 {
+  color: white;
+  text-transform: capitalize;
+  font-size: 60px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  gap: 10px;
+}
+.location {
+  position: absolute;
+  top: 80%;
+  right: 5%;
+  color: red;
+}
+.date {
+  position: absolute;
+  top: 80%;
+  left: 5%;
+  color: white;
+}
+.date-div {
+  position: inherit;
+}
+.date p {
+  background: black;
+  padding: 5px;
+}
+.about-heading h2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  width: 20%;
+  background: black;
+  margin-left: 40%;
+  letter-spacing: 6px;
+  font-size: large;
+  margin-top: 3rem;
+}
+.paragraph1 {
+  display: flex;
+  text-align: justify;
+  justify-content: center;
+  width: 50%;
+  margin-left: 25%;
+}
+.paragraph {
+  display: flex;
+  text-align: justify;
+  justify-content: center;
+  width: 50%;
+  margin-left: 25%;
+}
+.paragraph2 {
+  display: flex;
+  text-align: justify;
+  justify-content: center;
+  width: 50%;
+  margin-left: 25%;
+  background: rgb(223, 230, 235);
+  padding: 1rem;
+}
+.image {
+  display: flex;
+  justify-content: center;
+}
+.image img {
+  width: 52%;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+.addresses {
+  display: flex;
+  justify-content: left;
+  margin-left: 25%;
+  margin-top: 1rem;
+  letter-spacing: 3px;
+}
+.the-menu h2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  width: 10%;
+  background: black;
+  margin-left: 45%;
+  letter-spacing: 6px;
+  font-size: large;
+  margin-top: 3rem;
+  /* padding: 10px; */
+}
+.food-menu {
+  display: flex;
+  /* gap: 20%; */
+  justify-content: center;
+}
+.list {
+  display: flex;
+  justify-content: center;
+  /* margin-right: 30%; */
+  padding: 3rem ;
+}
+.img1 {
+  width: 50%;
+  display: flex;
+  justify-content: left;
+  margin-left: 25%;
+  margin-top: 3rem;
+}
+.list p {
+  margin-top: 1rem;
+  color: #757575;
+  font-size: medium;
+  letter-spacing: 1px;
+  /* font-weight: 500; */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.list h6 {
+  margin-top: 0.5rem;
+  width: 100%;
+  font-size: 14px;
+}
+.find h2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  width: 15%;
+  background: black;
+  margin-left: 45%;
+  letter-spacing: 2px;
+  /* font-size: large; */
+  margin-top: 3rem;
+  padding: 5px;
+}
+.find-address {
+  display: flex;
+  justify-content: center;
+  margin-right: 30%;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+.img3 img {
+  width: 50%;
+}
+.img3 {
+  display: flex;
+  justify-content: center;
+}
+.paragraph-1 {
+  justify-content: center;
+  display: flex;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 2rem;
+}
+.fyi {
+  background: black;
+  color: white;
+  padding: 5px;
+}
+.inputs input {
+  display: flex;
+  justify-content: left;
+  padding: 20px;
+  margin-left: 25%;
+  width: 50%;
+  margin-top: 1rem;
+}
+.send p {
+  display: flex;
+  justify-content: left;
+  margin-left: 25%;
+  margin-top: 1rem;
+  background-color: black;
+  color: white;
+  width: 10%;
+  padding: 10px;
+  cursor: pointer;
+}
+.send p:hover {
+  background-color: #757575;
+  color: black;
+}
+.the-end {
+  display: flex;
+  justify-content: center;
+  background-color: lightgray;
+  padding: 30px;
+}
+.the-end a {
+  color: black;
+}
+
+.food {
+  box-shadow: 0px 2px 48px rgba(0, 0, 0, 0.06);
+  width: 50%;
+}
+.food-menu p {
+  cursor: pointer;
+}
+
+.food-menu {
+  display: flex;
+  gap: 5rem;
+  padding: 10px;
+  margin-top: 2rem;
+  box-shadow: 0px 2px 48px rgba(0, 0, 0, 0.06);
+}
+.food-menu p:hover {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  padding: 5px;
+  background-color: #757575;
+}
+
+.center {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 900px) {
+  .about { 
+    background: yellow;
+  }
+   .first-img{
+    position: relative;
+  } 
+  /* .fixed-div {
+    position: relative;
+    top: 200px;
+    right: 0;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 10px;
+  } */
+
+  /* .cafe{
+    background-color: green;
+  } */
+
+  .fixed-div h2{
+    font-size: 100px;
+    position: relative;
+    color: red;
+    top: 1px;
+    right: 2px;
+  }
+  .location{
+    position: ;
+
+  }
+
+}
+@media only screen and (max-width: 600px) {
+  .top {
+    width: 100%;
+    z-index: 100%;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: smaller;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    cursor: pointer;
+  }
+  .general-div {
+    position: relative;
+  }
+  /* .first-img img {
+    width: 100%;
+    height: 100%;
+ 
+  } */
+  .cafe {
+    position: absolute;
+    top: 10%;
+    right: 45%;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 10px;
+  }
+  .fixed-div {
+    position: relative;
+  }
+  .date {
+    display: none;
+    position: relative;
+    top: 20%;
+    left: 10%;
+    color: white;
+  }
+  .date-div {
+    position: fixed;
+  }
+  .date p {
+    background: black;
+    padding: 5px;
+    width: 50%;
+  }
+  .location {
+    position: absolute;
+    top: 35%;
+    right: 1%;
+    color: white;
+  }
+  .first-image{
+    position: relative;
+  }
+  .about-heading h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    width: 80%;
+    height: 2%;
+    background: black;
+    margin-left: 10%;
+    letter-spacing: 6px;
+    font-size: large;
+    /* margin-top: 3rem; */
+  }
+  .paragraph1 {
+    padding: 1rem;
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    font-family: Arial;
+  }
+  .paragraph {
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .paragraph2 {
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    background: rgb(223, 230, 235);
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+
+  .image img {
+    margin: 0 auto;
+    width: 95%;
+  }
+  .addresses {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-left: 1%;
+    justify-content: left;
+  }
+  .address {
+    width: 100%;
+    margin-right: 0%;
+  }
+  .the-menu h2 {
+    width: 50%;
+    margin-left: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .list {
+    display: flex;
+    justify-content: left;
+    width: 90%;
+    padding: 0;
+    margin: 0.5rem;
+    /* margin-right: -2.5%; */
+  }
+
+  .lists {
+    margin: 0 auto;
+    /* width: 90%; */
+  }
+  .food {
+    width: 95%;
+  }
+  .img1 {
+    width: 95%;
+    display: flex;
+    justify-content: left;
+    margin: 0 auto;
+  }
+  .find h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+     width: 70%; 
+    background: black;
+    margin-left: 13%;
+    letter-spacing: 2px;
+    font-size: large;
+    margin-top: 3rem;
+    padding: 5px;
+  }
+  .find-address {
+    display: flex;
+    justify-content: center;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    font-size: 14px;
+    /* margin-right: 30%;
+    margin-top: 3rem;
+    margin-bottom: 1rem; */
+  }
+  .img3 img {
+    width: 95%;
+  }
+  .paragraph-1 {
+    justify-content: center;
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    width: 80%;
+    margin-left: 2%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  .paragraph-1 p {
+    margin-top: 1rem;
+  }
+  .inputs input {
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+    margin-left: 2%;
+    width: 80%;
+    /* margin-top: 1rem; */
+  }
+  .send p {
+    display: flex;
+    justify-content: left;
+    margin-left: 2%;
+    margin-top: 1rem;
+    background-color: black;
+    color: white;
+    width: 40%;
+    margin-bottom: 3rem;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .the-end {
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+    padding: 40px;
+  }
+}
+@media only screen and (min-width: 601px) {
+  .cafe {
+    position: absolute;
+    z-index: 100%;
+    top: 30%;
+    font-size: 300px;
+    right: 50%;
+  }
+  .fixed-div {
+    font-size: 300px;
+  }
+  .about-heading h2 {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+    height: 2rem;
+    /* padding: 1rem; */
+    font-size: 10px;
+    margin: 0 auto;
+    background-color: black;
+  }
+
+  .paragraph1 {
+    padding: 1rem;
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+  }
+  .the-menu h2 {
+    width: 20%;
+    margin: 0 auto;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+  text-align: center;
+  padding: 5px;
+  }
+  .find h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    width: 20%;
+    margin: 0 auto;
+    background: black;
+    /* margin-left: 13%; */
+    font-size: 10px;
+    /* margin-top: 3rem; */
+    /* padding: 5px; */
+  }
+  .img1 {
+    margin-bottom: 2rem;
+  }
+  .addresses {
+    margin-bottom: 2rem;
+  }
+  .send p {
+    display: flex;
+    justify-content: left;
+    margin-left: 24%;
+    margin-top: 2rem;
+    background-color: black;
+    color: white;
+     width: 10%; 
+     font-size: 10px;
+    margin-bottom: 3rem;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .inputs input {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 0 auto;
+    width: 50%;
+    /* margin-top: 1rem; */
+  }
+}

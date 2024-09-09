@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.home {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  position: fixed;
+  width: 100%;
+}
+.top-right a {
+  color: white;
+  text-decoration: none;
+}
+.top-right {
+  padding: 10px;
+  display: flex;
+  gap: 2rem;
+}
+.top-right :hover {
+  background-color: lightgrey;
+  color: black;
+  padding: 7px;
+}
+.top-left a {
+   
+  padding-right: 10px;
+}
+.top-left a:hover {
+  background-color: red;
+  padding: 15px;
+}
+.top-left a {
+  color: white;
+  margin-right: 0.5rem;
+}
+.first-img img {
+  width: 100%;
+}
+.text {
+  position: absolute;
+  top: 75%;
+  right: 40%;
+}
+.sub-text h4 {
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+}
+.sub-text {
+  color: white;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+.paragraph {
+  display: flex;
+  text-align: justify;
+  margin-left: 25%;
+  width: 50%;
+  font-size: smaller;
+  margin-top: 1rem;
+}
+.title-heading p {
+  color: gray;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.images {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 15px;
+}
+.images img {
+  border-radius: 8px;
+  width: 60%;
+}
+.tour {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5rem;
+}
+.months {
+  background-color: white;
+  color: gray;
+  padding: 1px;
+
+  /* width: 400%; */
+}
+.heading2 {
+  width: 50%;
+}
+.title-heading2 {
+  margin-left: 30%;
+  padding: 30px;
+}
+.title-heading2 i {
+  color: lightgray;
+}
+.title-heading2 h2 {
+  letter-spacing: 0.5rem;
+  padding-bottom: 10px;
+}
+.september {
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem;
+}
+.september p {
+  justify-content: center;
+  display: flex;
+  background-color: red;
+  color: white;
+  /* width: 5rem; */
+  margin-bottom: 1rem;
+}
+.november {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.november p {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 30px;
+}
+.image-lines {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.image-lines img {
+  height: 50%;
+  /* width: 100%; */
+}
+.image1 {
+  background-color: white;
+  color: black;
+}
+.paris {
+  padding: 10px;
+}
+.paris h3 {
+  margin-bottom: 0.3rem;
+}
+.paris i {
+  margin-bottom: 0.5rem;
+}
+.paris p {
+  margin-bottom: 0.5rem;
+}
+.date {
+  color: rgb(180, 178, 178);
+}
+
+.image2 {
+  background-color: white;
+  color: black;
+}
+.image3 {
+  background-color: white;
+  color: black;
+}
+.ticket {
+  padding: 7px;
+  font-size: medium;
+  width: 45%;
+  background-color: black;
+  color: white;
+}
+.ticket:hover {
+  background-color: lightgray;
+  color: black;
+}
+.contact-div {
+  width: 100%;
+}
+.contact-padding {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+.contact h2 {
+  letter-spacing: 10px;
+}
+.contact i {
+  margin-left: 1.5rem;
+}
+.info {
+  width: 50%;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  justify-content: left;
+  font-size: large;
+}
+.info {
+  width: 30%;
+
+  /* padding-bottom:rem; */
+}
+.info-div {
+  margin: 5% 10% 10% 30%;
+}
+.input-div {
+  margin-left: 40%;
+  display: grid;
+  gap: 0.5rem;
+}
+.input input {
+  padding: 10px;
+  gap: 10px;
+}
+.message input {
+  padding: 10px;
+  width: 61%;
+}
+.send {
+  display: flex;
+  justify-content: right;
+  margin-right: 21%;
+  color: white;
+}
+.send p {
+  background-color: black;
+  padding: 7px;
+  margin-top: 1rem;
+}
+.send p:hover {
+  color: black;
+  background-color: lightgrey;
+}
+.information {
+  margin-right: 70%;
+}
+.social {
+  display: flex;
+  gap: 10px;
+  color: gray;
+  margin-top: 3rem;
+  justify-content: center;
+  font-size: x-large;
+}
+.powered {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+  gap: 3px;
+  font-size: medium;
+}
+.powered a {
+  color: black;
+}
+@media only screen and (max-width:600px) {
+  .images{
+    flex-direction: column;
+  }
+  
+}

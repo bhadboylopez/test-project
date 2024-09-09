@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.top-list {
+  display: flex;
+
+  background-color: red;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  box-shadow: 0 0 10px #000000;
+  position: relative;
+  width: 100%;
+}
+.home {
+  background-color: white;
+  padding: 20px;
+  width: 5%;
+
+  height: 20%;
+  color: black;
+}
+.home:hover {
+  background-color: lightgrey;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.links :hover {
+  background-color: white;
+  padding: 20px;
+  color: black;
+  /* width: 40%; */
+}
+.first-heading {
+  background-color: red;
+}
+
+.start {
+  position: absolute;
+  right: 50%;
+  top: 20%;
+}
