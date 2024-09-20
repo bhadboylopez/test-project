@@ -4,13 +4,13 @@
   overflow-x: hidden;
 }
 .general-div {
-  margin: 0rem 5rem 0rem 5rem; 
+  margin: 0rem 5rem 0rem 5rem;
   width: 100%;
   display: flex;
 }
-.left{
-    width: 45%;
-} 
+.left {
+  width: 45%;
+}
 .first {
   background-color: black;
   /* width: 60%; */
@@ -35,240 +35,242 @@
   margin-top: 1rem;
   width: 100%;
   padding: 10px;
-  
 }
-.resume:hover{
-    background-color: #616161;
+.resume:hover {
+  background-color: #616161;
 }
 .home {
   margin-top: 1rem;
   width: 100%;
   padding: 10px;
 }
-.home:hover{
-    background-color: #607d8b;
-   width: 90%;
-
+.home:hover {
+  background-color: #607d8b;
+  width: 90%;
 }
 .my-work {
   margin-top: 1rem;
   width: 100%;
   padding: 10px;
 }
-.my-work:hover{
-    background-color: #009688;
+.my-work:hover {
+  background-color: #009688;
 }
 .contact {
   margin-top: 1rem;
   width: 100%;
   padding: 10px;
 }
-.contact:hover{
-    background-color: #795548;
+.contact:hover {
+  background-color: #795548;
 }
-.second-container{
-    /* width: 50%; */
-    background-color: rgb(237, 239, 241);
+.second-container {
+  /* width: 50%; */
+  background-color: rgb(237, 239, 241);
 }
-.image-list{
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    overflow-y: hidden;
+.image-list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  overflow-y: hidden;
 }
-.image-list img{
-    overflow-y: hidden;
-    width: 100%;
-    height: 100%;
+.image-list img {
+  overflow-y: hidden;
+  width: 100%;
+  height: 100%;
 }
-.image1{
-    overflow-y: hidden ;
+.image1 {
+  overflow-y: hidden;
 }
-.image2{
-    overflow-y: hidden;
+.image2 {
+  overflow-y: hidden;
 }
-.image3{
-    overflow-y: hidden;
+.image3 {
+  overflow-y: hidden;
 }
-.image4{
-    overflow-y: hidden;
+.image4 {
+  overflow-y: hidden;
 }
-.image5{
-    overflow-y: hidden;
+.image5 {
+  overflow-y: hidden;
 }
-.image6{
-    overflow-y: hidden;
+.image6 {
+  overflow-y: hidden;
 }
-.photo-list h3{
-    font-size: 30px;
-    margin-bottom: 1rem;
+.photo-list h3 {
+  font-size: 30px;
+  margin-bottom: 1rem;
 }
-.second-div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 50px;
+.second-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
 }
-.just{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 30px;
+.just {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
 }
-.third-container{
-    /* width: 50%; */
-    color: white;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    background-color: #616161;
-
-    
-  
+.third-container {
+  /* width: 50%; */
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: #616161;
 }
-.heading{
-    margin-top: 4rem;
-    margin-bottom: 7rem;
-    font-size: 30px;
-
-
-    
+.heading {
+  margin-top: 4rem;
+  margin-bottom: 7rem;
+  font-size: 30px;
 }
-.paragraph p{
-
-    margin-bottom: 1rem;
-   
+.paragraph p {
+  margin-bottom: 1rem;
 }
-.paragraph{
-    margin-bottom: 15rem;
+.paragraph {
+  margin-bottom: 15rem;
 }
-.right-side{
-    width: 45%;
-
+.right-side {
+  width: 45%;
 }
-.right-container1{
-
-    background-color: #607d8b;
+.right-container1 {
+  background-color: #607d8b;
 }
-.about{
-    display: flex;
-    justify-content: center;
-    color: white;
-    margin-top: 2rem;
+.about {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 2rem;
 }
-.right-image{
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
+.right-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
 }
-.right-image img{
-    width: 40%;
-    border-radius: 170px;
+.right-image img {
+  width: 40%;
+  border-radius: 170px;
 }
-.paragraph3{
-    color: white;
-    padding: 40px;
+.paragraph3 {
+  color: white;
+  padding: 40px;
 }
-.paragraph3 p{
-    margin-bottom: 2.1rem;
+.paragraph3 p {
+  margin-bottom: 2.1rem;
 }
-.resume-container{
-    background-color: rgb(64, 64, 223);
-    color: white;
+.resume-container {
+  background-color: rgb(64, 64, 223);
+  color: white;
 }
-.resume-div{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    margin: 2rem;
+.resume-div {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 2rem;
 }
-.resume-div p{
-    margin-top: 1rem;
+.resume-div p {
+  margin-top: 1rem;
 }
-.head-list{
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    gap:80px;
-    margin: 1rem;
- 
+.head-list {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 80px;
+  margin: 1rem;
 }
-.head-list h5{
-    
-    margin-left: 150px;
-  
+.head-list h5 {
+  margin-left: 150px;
 }
-.first-list{
-    display: flex;
-    justify-content:left;
-    align-items: center;
-    gap: 80px;
-    padding: 10px;
-    margin: 1rem;
-    background-color: white;
-    color: black;
+.first-list {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 80px;
+  padding: 10px;
+  margin: 1rem;
+  background-color: white;
+  color: black;
 }
-.second-list{
-    display: flex;
-    justify-content:left;
-    align-items: center;
-    gap: 80px;
-    padding: 10px;
-    margin: 1rem;
+.second-list {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 80px;
+  padding: 10px;
+  margin: 1rem;
 }
-.lorem1{
-    margin-left: 90px;
+.lorem1 {
+  margin-left: 90px;
 }
-.lorem2{
-    margin-left: 30px;
+.lorem2 {
+  margin-left: 30px;
 }
-.last-list{
-    display: flex;
-    justify-content:left;
-    align-items: center;
-    gap: 80px;
-    padding: 20px;
-    margin-bottom: 4.5rem;
-   
+.last-list {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 80px;
+  padding: 20px;
+  margin-bottom: 4.5rem;
 }
 
-.contact-container{
-    background-color: #009688;
-    margin-bottom: 4rem;
+.contact-container {
+  background-color: #009688;
+  margin-bottom: 4rem;
 }
 
-.contact-div{
-    display: flex;
-    padding: 55px;
-    margin-top: 3rem;
-    color: white;
-    
+.contact-div {
+  display: flex;
+  padding: 55px;
+  margin-top: 3rem;
+  color: white;
 }
-.contact-heading h5{
-    color:lightgray;
-    margin-top: 1.5rem;
+.contact-heading h5 {
+  color: lightgray;
+  margin-top: 1.5rem;
 }
 .input-container input {
+  display: flex;
+  width: 75%;
+  justify-content: left;
+  padding: 20px;
+  margin-left: 10%;
+}
+.input-container {
+  margin-bottom: 3rem;
+}
 
-    display: flex;
-    width: 75%;
-    justify-content: left;
-    padding: 20px;
-    margin-left: 10%;
+.input1 {
 }
-.input-container{
-    margin-bottom: 3rem;
+
+.input2 input {
+  border: none;
 }
-.send{
-    background-color: white;
-    padding: 50px;
-    margin-left: 50px;
+
+.input3 input {
+  border: none;
 }
-.send-list{
-   
+
+.input1 input {
+  border-bottom: 1px solid black;
+  border-top: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  outline: none;
+  border-bottom-width: 1px;
+}
+
+.send {
+  background-color: white;
+  padding: 50px;
+  margin-left: 50px;
+}
+.send-list {
 }
 /* .input1 input{
     width: 100%;
@@ -278,3 +280,83 @@ padding: 10px;
     width: 100%;
 
 } */
+
+.powered {
+  display: flex;
+  gap: 10px;
+  color: white;
+  background-color: black;
+  padding: 30px;
+  margin-left: 80px;
+  width: 88%;
+}
+.powered a {
+  color: white;
+  margin-bottom: 0.7rem;
+  text-decoration: none;
+}
+@media only screen and (max-width: 600px) {
+  .general-div {
+    margin: 0;
+    width: 100%;
+    flex-direction: column;
+    /* display: flex; */
+  }
+  .my-logo {
+    color: white;
+    font-size: 20px;
+    /* margin: 0; */
+  }
+  .left {
+    width: 100%;
+  }
+  .image-list {
+    display: flex;
+    flex-direction: column;
+  }
+  .image1 {
+    display: none;
+  }
+  .image2 {
+    display: none;
+  }
+  .image3 {
+    display: none;
+  }
+  .image4 {
+    display: none;
+  }
+  .right-side {
+    width: 100%;
+  }
+  .paragraph3 {
+    width: 80%;
+    text-align: left;
+    font-size: small;
+  }
+  .first-container {
+    width: 100%;
+    font-size: small;
+  }
+  .first-list {
+    gap: 30px;
+    padding: 12px;
+  }
+  .head-list {
+    gap: 30px;
+  }
+  .second-list {
+    gap: 30px;
+    padding: 4px;
+  }
+  .last-list {
+    gap: 20px;
+    padding: 10px;
+  }
+  .lorem1 {
+    margin: 0 auto;
+  }
+  .lorem2 {
+    margin: 0 auto;
+  }
+}
