@@ -354,9 +354,14 @@ padding: 10px;
     padding: 10px;
   }
   .lorem1 {
-    margin: 0 auto;
+    margin-left: 0 auto;
   }
   .lorem2 {
     margin: 0 auto;
+  }
+  .powered {
+    margin-left: 0;
+    
+    width: 100%;
   }
 }
